@@ -40,7 +40,10 @@ Error = Bad Request - 400
 * #### Si se tiene Visual Studio 2019 o superior 
   * Solo es necesario abrir el proyecto y ejecutarlo como se muestra en las siguientes imágenes
     * Paso 1 
+      ![Image text]([https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg](https://github.com/c-go-m/x-men-logic/blob/main/Document/img01.png))
     * Paso 2
+      ![Image text]([https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg](https://github.com/c-go-m/x-men-logic/blob/main/Document/img02.png))
+
 * #### Si se tiene Docker Desktop
   * Solo es necesario ejecutar los siguientes comandos  
     * Paso 1

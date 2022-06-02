@@ -21,6 +21,7 @@ namespace BusinessLogic.Validation
 
         public static bool ValidMinSize(this List<string> value)
         {
+            if (value == null) { return false; };
             return value.Count() >= Constants.MountSequence;
         }
 

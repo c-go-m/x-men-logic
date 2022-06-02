@@ -45,13 +45,5 @@ Error = Bad Request - 400
   * Solo es necesario ejecutar los siguientes comandos  
     * Paso 1
     ```
-      docker pull camilogo89/appfunction:latest
+      docker-compose up
     ```  
-    * Paso 2
-    ```
-      docker run -p 800:80 --name x-men 
-        -e MongoConnectionString = mongodb://x-men-data-base:tYxrPbk5kQsgtBxCQS3m33cdqsRlQRgPdFqOYDZncSBHpsCcmwQscGhcEa11VkcMZpCB4W4pnjaa5IAJdjaDtQ==@x-men-data-base.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@x-men-data-base@ 
-        -e MongoDbName = x-men
-        -e ServiceBusConnection = Endpoint=sb://x-men-event-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BsKBrsNW4AhCkyM/7wqu5R98UX1i3RU7QQs5w/BN+ek=
-        -d appfunction
-    ```

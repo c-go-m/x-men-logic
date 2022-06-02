@@ -1,0 +1,20 @@
+{
+  "list": [
+    {
+      "Petition": { "dna": [ "ATGBATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC" ] },
+      "NamePrueba": "Caracter Invalid"
+    },
+    {
+      "Petition": { "dna": [ "ATG", "GCA", "ATG" ] },
+      "NamePrueba": "Size min invalid"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCATA", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCATA", "GCATGCATGC" ] },
+      "NamePrueba": "Struct invalid"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCA", "GCATGCATGC" ] },
+      "NamePrueba": "Struct invalid"
+    }
+  ]
+}

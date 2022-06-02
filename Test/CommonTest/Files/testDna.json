@@ -1,0 +1,235 @@
+{
+  "list": [
+    {
+      "Petition": { "dna": [ "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC" ] },
+      "Result": false,
+      "NamePrueba": "Horizontal no coincidence - even"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCTTTT" ] },
+      "Result": false,
+      "NamePrueba": "Horizontal with 1 match - even"
+    },
+    {
+      "Petition": { "dna": [ "TTTTATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCTTTT" ] },
+      "Result": true,
+      "NamePrueba": "Horizontal with 2 match - even"
+    },
+    {
+      "Petition": { "dna": [ "TTTTATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCTTTT", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCTTTT" ] },
+      "Result": true,
+      "NamePrueba": "Horizontal with 3 match - even"
+    },
+    {
+      "Petition": { "dna": [ "TTTTTTTTTT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC" ] },
+      "Result": true,
+      "NamePrueba": "Horizontal with 1 long match - even"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG" ] },
+      "Result": false,
+      "NamePrueba": "Horizontal no coincidence - odd"
+    },
+    {
+      "Petition": { "dna": [ "TTTTATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG" ] },
+      "Result": false,
+      "NamePrueba": "Horizontal with 1 match - odd"
+    },
+    {
+      "Petition": { "dna": [ "TTTTATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGTTTT" ] },
+      "Result": true,
+      "NamePrueba": "Horizontal with 2 match - odd"
+    },
+
+    {
+      "Petition": { "dna": [ "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC" ] },
+      "Result": false,
+      "NamePrueba": "Vertical no coincidence - even"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCAT", "ACATGCATGC", "ATGCATGCAT", "ACATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC" ] },
+      "Result": false,
+      "NamePrueba": "Vertical with 1 match - even"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCAT", "ACATGCATGT", "ATGCATGCAT", "ACATGCATGT", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC", "ATGCATGCAT", "GCATGCATGC" ] },
+      "Result": true,
+      "NamePrueba": "Vertical with 2 match - even"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCAT", "ACATGCATGC", "ATGCATGCAT", "ACATGCATGC", "ATGCATGTAT", "GCATGCATGC", "ATGCATGTAT", "GCATGCATGT", "ATGCATGCAT", "GCATGCATGT" ] },
+      "Result": true,
+      "NamePrueba": "Vertical with 3 match - even"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCAT", "ACATGCATGC", "ATGCATGCAT", "ACATGCATGC", "ATGCATGCAT", "ACATGCATGC", "ATGCATGCAT", "ACATGCATGC", "ATGCATGCAT", "ACATGCATGC" ] },
+      "Result": true,
+      "NamePrueba": "Vertical with 1 long match - even"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG" ] },
+      "Result": false,
+      "NamePrueba": "Vertical no coincidence - odd"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCATA", "ACATGCATGCT", "ATGCATGCATG", "ACATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG" ] },
+      "Result": false,
+      "NamePrueba": "Vertical with 1 match - odd"
+    },
+    {
+      "Petition": { "dna": [ "ATGCATGCATA", "ACATGCATGCT", "ATGCATGCATG", "ACATGCATGCC", "ATGCATGCATA", "GCATGCATGCT", "ATGCATGCATG", "GCATGCATGCG", "ATGCATGCATG", "GCATGCATGCG", "ATGCATGCATG" ] },
+      "Result": true,
+      "NamePrueba": "Vertical with 2 match - odd"
+    },
+
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": false,
+      "NamePrueba": "H sequence without any other 4-letter sequence"
+    },
+    {
+      "Petition": { "dna": [ "AAACAAAA", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": false,
+      "NamePrueba": "H sequence without any other 4-letter sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACTC", "TGTGTGTG", "ACACACTC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACTC", "TGTGTGTG" ] },
+      "Result": false,
+      "NamePrueba": "V sequence without any other 4-letter sequence"
+    },
+    {
+      "Petition": { "dna": [ "GCACACAC", "TGTGTGTG", "ACGCACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACGC", "TGTGTGTG" ] },
+      "Result": false,
+      "NamePrueba": "D sequence without any other 4-letter sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGCG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGCGTGTG", "ACACACAC", "CGTGTGTG" ] },
+      "Result": false,
+      "NamePrueba": "C sequence without any other 4-letter sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "AAAAAAAC", "TGTGTGTG" ] },
+      "Result": false,
+      "NamePrueba": "H sequence intercepted by another H sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGTG", "ACACACTC", "TGTGTGTG", "ACACACTC", "TGTGTGTG", "ACACACTC", "TGTGTGTG" ] },
+      "Result": false,
+      "NamePrueba": "V sequence intercepted by another V sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGTG", "ACGCACAC", "TGTGTGTG", "ACACGCAC", "TGTGTGTG", "ACACACGC", "TGTGTGTG" ] },
+      "Result": false,
+      "NamePrueba": "D sequence intercepted by another D sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGCG", "ACACACAC", "TGTGCGTG", "ACACACAC", "TGCGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": false,
+      "NamePrueba": "C sequence intercepted by another C sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGAG", "ACACAAAA", "TGTGTGAG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence intercepted by another V sequence"
+    },
+    {
+      "Petition": { "dna": [ "ATACACAC", "TTTTTGTG", "ACATACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence intercepted by another D sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGTG", "ACGCACAC", "GGGGTGTG", "GCACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence intercepted by another C sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGCGCGTG", "ACACACAC", "TGCGCGTG" ] },
+      "Result": true,
+      "NamePrueba": "D sequence intercepted by another C sequence"
+    },
+
+
+    {
+      "Petition": { "dna": [ "AAAAACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACAAAA", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence separated from another H sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACTCACAC", "TGTGTGTG", "ACTCACAC", "TGTGTGTG", "ACACACTC", "TGTGTGTG", "ACACACTC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "V sequence separated from another V sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACGCAC", "TGTGTGTG", "ACACACGC", "TGTGTGTG", "GCACACAC", "TGTGTGTG", "ACGCACAC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "D sequence separated from another D sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGCGTGTG", "ACACACAC", "CGTGTGTG", "ACACACAC", "TGTGTGCG", "ACACACAC", "TGTGCGTG" ] },
+      "Result": true,
+      "NamePrueba": "C sequence separated from another C sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGTG", "ACACAAAA", "TGTGTGTG", "ACACACAC", "TGAGTGTG", "ACACACAC", "TGAGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence separated from another V sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTTTT", "ACACACAC", "TGTGTGTG", "ACACATAC", "TGTGTGTG", "ACACACAT", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence separated from another D sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACGCAC", "TGTGTGTG", "ACGCACAC", "TGTGTGTG", "ACACACAC", "GGGGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence separated from another C sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGCGTGTG", "ACACACAC", "CGTGTGTG", "ACACACAC", "TGTGCGTG", "ACACACAC", "TGTGTGCG" ] },
+      "Result": true,
+      "NamePrueba": "D sequence separated from another C sequence"
+    },
+    {
+      "Petition": { "dna": [ "AAAAAAAA", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence followed by another H sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACTC", "TGTGTGTG", "ACACACTC", "TGTGTGTG", "ACACACTC", "TGTGTGTG", "ACACACTC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "V sequence followed by another V sequence"
+    },
+    {
+      "Petition": { "dna": [ "GCACACAC", "TGTGTGTG", "ACGCACAC", "TGTGTGTG", "ACACGCAC", "TGTGTGTG", "ACACACGC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "D sequence followed by another D sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGCG", "ACACACAC", "TGTGCGTG", "ACACACAC", "TGCGTGTG", "ACACACAC", "CGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "C sequence followed by another C sequence"
+    },
+    {
+      "Petition": { "dna": [ "AAAAACAC", "TGTGAGTG", "ACACACAC", "TGTGAGTG", "ACACCCAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence followed by another V sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TTTTTGTG", "ACACATAC", "TGTGTGTG", "ACACACAT", "TGTGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence followed by another D sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGGGGG", "ACGCACAC", "TGTGTGTG", "GCACACAC", "TGTGTGTG", "ACACACAC", "TGTGTGTG" ] },
+      "Result": true,
+      "NamePrueba": "H sequence followed by another C sequence"
+    },
+    {
+      "Petition": { "dna": [ "ACACACAC", "TGTGTGTG", "ACACACAC", "TGCGTGTG", "ACACACAC", "TGTGCGCG", "ACACACAC", "TGTGCGTG" ] },
+      "Result": true,
+      "NamePrueba": "D sequence followed by another C sequence"
+    }
+  ]
+
+} 
+

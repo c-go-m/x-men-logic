@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "AppFunction": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MongoConnectionString": "mongodb://x-men-data-base:tYxrPbk5kQsgtBxCQS3m33cdqsRlQRgPdFqOYDZncSBHpsCcmwQscGhcEa11VkcMZpCB4W4pnjaa5IAJdjaDtQ==@x-men-data-base.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@x-men-data-base@",
+        "MongoDbName": "x-men",
+        "ServiceBusConnection": "Endpoint=sb://x-men-event-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BsKBrsNW4AhCkyM/7wqu5R98UX1i3RU7QQs5w/BN+ek="
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "environmentVariables": {
+        "MongoConnectionString": "mongodb://x-men-data-base:tYxrPbk5kQsgtBxCQS3m33cdqsRlQRgPdFqOYDZncSBHpsCcmwQscGhcEa11VkcMZpCB4W4pnjaa5IAJdjaDtQ==@x-men-data-base.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@x-men-data-base@",
+        "MongoDbName": "x-men",
+        "ServiceBusConnection": "Endpoint=sb://x-men-event-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BsKBrsNW4AhCkyM/7wqu5R98UX1i3RU7QQs5w/BN+ek="
+      },
+      "httpPort": 30803,
+      "useSSL": false
+    }
+  }
+}

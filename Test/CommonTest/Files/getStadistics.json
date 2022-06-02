@@ -1,0 +1,65 @@
+{
+  "list": [
+    {
+      "Human": 10,
+      "Mutant": 15,
+      "Result": {
+        "count_mutant_dna": 15,
+        "count_human_dna": 10,
+        "ratio": 1.5
+      },
+      "NamePrueba": "Test 1"
+    },
+    {
+      "Human": 20,
+      "Mutant": 10,
+      "Result": {
+        "count_mutant_dna": 10,
+        "count_human_dna": 20,
+        "ratio": 0.5
+      },
+      "NamePrueba": "Test 2"
+    },
+    {
+      "Human": 0,
+      "Mutant": 0,
+      "Result": {
+        "count_mutant_dna": 0,
+        "count_human_dna": 0,
+        "ratio": 0
+      },
+      "NamePrueba": "Test 3"
+    },
+    {
+      "Human": 20,
+      "Mutant": 20,
+      "Result": {
+        "count_mutant_dna": 20,
+        "count_human_dna": 20,
+        "ratio": 1
+      },
+      "NamePrueba": "Test 4"
+    },
+    {
+      "Human": 20,
+      "Mutant": 0,
+      "Result": {
+        "count_mutant_dna": 0,
+        "count_human_dna": 20,
+        "ratio": 0
+      },
+      "NamePrueba": "Test 4"
+    },
+    {
+      "Human": 0,
+      "Mutant": 20,
+      "Result": {
+        "count_mutant_dna": 20,
+        "count_human_dna": 0,
+        "ratio": 0
+      },
+      "NamePrueba": "Test 4"
+    }
+
+  ]
+}
